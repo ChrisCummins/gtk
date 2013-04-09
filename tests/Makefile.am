@@ -46,6 +46,7 @@ noinst_PROGRAMS =  $(TEST_PROGS)	\
 	testcombo			\
 	testcombochange			\
 	testcellrenderertext		\
+	testcssboxshadows		\
 	testdnd				\
 	testellipsise			\
 	testentrycompletion 		\
