@@ -33,6 +33,7 @@ noinst_PROGRAMS =  $(TEST_PROGS)	\
 	video-timer			\
 	testaccel			\
 	testadjustsize			\
+	testanimatedcursor		\
 	testappchooser			\
 	testappchooserbutton		\
 	testassistant			\
