@@ -116,6 +116,10 @@ swatch_activate (GtkColorSwatch        *swatch,
                  GtkColorChooserWidget *cc)
 {
   GdkRGBA color;
+  GtkStyleContext *context;
+
+  context = gtk_widget_get_style_context (GTK_WIDGET (swatch));
+  gtk_style_context_invalidate (context);
 
   gtk_color_swatch_get_rgba (swatch, &color);
   _gtk_color_chooser_color_activated (GTK_COLOR_CHOOSER (cc), &color);
